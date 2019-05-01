@@ -18,13 +18,13 @@ ASGNMT = assignment.tex
 # Project Files Specified Below
 ##
 # Source files should be added to the SRCS variable
-SRCS =	/* Set Me with .cpp files */
+SRCS = main.cpp	HuffmanTree.cpp
 # Object files will be inferred from soruce files; adjust as needed
 OBJS =	$(SRCS:.cpp=.o)
 # Dependency files will be inferred from source files; adjust as needed
 DEPS =	$(SRCS:.cpp=.dep)
 # List all targets this Makefile is to create from source files
-TARGET = /* Set me with what you want to build */
+TARGET = main
 
 ###################################################
 # Should Not need to modify lines of Makefile below
